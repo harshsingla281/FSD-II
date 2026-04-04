@@ -28,3 +28,12 @@ python3 app.py
 
 ## Testing
 Use Postman to test APIs.
+
+🎯 Learning Outcomes
+
+1. Understand Microservices Architecture
+2. Build RESTful APIs using Flask
+3. Develop Independent Services
+4. Implement Service Communication
+5. API Testing and Debugging
+6. Prepare for Industry-Level Concepts
