@@ -1,0 +1,20 @@
+.main-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.counter-box {
+  border: 2px solid #333;
+  padding: 15px;
+  margin: 15px auto;
+  width: 300px;
+  border-radius: 8px;
+}
+
+button {
+  margin: 5px;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
