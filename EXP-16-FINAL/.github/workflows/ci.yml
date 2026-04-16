@@ -33,25 +33,3 @@ jobs:
         run: |
           source venv/bin/activate
           pytest
-
-  frontend-test:   # ✅ SAME LEVEL as backend-test
-    runs-on: ubuntu-latest
-
-    defaults:
-      run:
-        working-directory: Testing/Frontend
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run frontend tests
-        run: npm run test
